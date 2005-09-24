@@ -9,7 +9,7 @@ Summary:	Lingua::EN::Numbers::Ordinate - go from cardinal number (3) to ordinal 
 Summary(pl):	Lingua::EN::Numbers::Ordinate - zamiana liczebników g³ównych (3) na porz±dkowe (3rd)
 Name:		perl-Lingua-EN-Numbers-Ordinate
 Version:	1.02
-Release:	0.1
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
