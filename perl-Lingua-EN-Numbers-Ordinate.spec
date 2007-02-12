@@ -6,7 +6,7 @@
 %define	pdir	Lingua
 %define	pnam	EN-Numbers-Ordinate
 Summary:	Lingua::EN::Numbers::Ordinate - go from cardinal number (3) to ordinal ("3rd")
-Summary(pl):	Lingua::EN::Numbers::Ordinate - zamiana liczebników g³ównych (3) na porz±dkowe (3rd)
+Summary(pl.UTF-8):   Lingua::EN::Numbers::Ordinate - zamiana liczebnikÃ³w gÅ‚Ã³wnych (3) na porzÄ…dkowe (3rd)
 Name:		perl-Lingua-EN-Numbers-Ordinate
 Version:	1.02
 Release:	1
@@ -25,10 +25,10 @@ There are two kinds of numbers in English - cardinals (1, 2, 3...),
 and ordinals (1st, 2nd, 3rd...). This library provides functions for
 giving the ordinal form of a number, given its cardinal value.
 
-%description -l pl
-W jêzyku angielskim s± dwa rodzaje liczebników - g³ówne (cardinals: 1,
-2, 3...) oraz porz±dkowe (ordinals: 1st, 2nd, 3rd...). Ta biblioteka
-udostêpnia funkcje do uzyskiwania formy porz±dkowej z formy g³ównej.
+%description -l pl.UTF-8
+W jÄ™zyku angielskim sÄ… dwa rodzaje liczebnikÃ³w - gÅ‚Ã³wne (cardinals: 1,
+2, 3...) oraz porzÄ…dkowe (ordinals: 1st, 2nd, 3rd...). Ta biblioteka
+udostÄ™pnia funkcje do uzyskiwania formy porzÄ…dkowej z formy gÅ‚Ã³wnej.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
