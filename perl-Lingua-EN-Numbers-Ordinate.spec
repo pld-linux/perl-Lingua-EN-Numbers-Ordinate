@@ -6,7 +6,7 @@
 %define	pdir	Lingua
 %define	pnam	EN-Numbers-Ordinate
 Summary:	Lingua::EN::Numbers::Ordinate - go from cardinal number (3) to ordinal ("3rd")
-Summary(pl.UTF-8):   Lingua::EN::Numbers::Ordinate - zamiana liczebników głównych (3) na porządkowe (3rd)
+Summary(pl.UTF-8):	Lingua::EN::Numbers::Ordinate - zamiana liczebników głównych (3) na porządkowe (3rd)
 Name:		perl-Lingua-EN-Numbers-Ordinate
 Version:	1.02
 Release:	1
