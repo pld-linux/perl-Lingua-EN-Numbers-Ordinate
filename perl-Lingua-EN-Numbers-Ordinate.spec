@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	Lingua
 %define	pnam	EN-Numbers-Ordinate
+%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::EN::Numbers::Ordinate - go from cardinal number (3) to ordinal ("3rd")
 Summary(pl.UTF-8):	Lingua::EN::Numbers::Ordinate - zamiana liczebników głównych (3) na porządkowe (3rd)
 Name:		perl-Lingua-EN-Numbers-Ordinate
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e92078fafd9108a137972c4e9bae9e99
+URL:		http://search.cpan.org/dist/Lingua-EN-Numbers-Ordinate/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
